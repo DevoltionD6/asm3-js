@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css.css" >
+    <script src="javascript.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body class="container">
+    <h1 class="center">Class Marksheet</h1>
+    
+    <form id="form">
+        <div class="k1">
+            <div class="k2">
+                <label class="k3">Họ và tên:</label>
+                <input type="text" id="ten" >
+            </div>
+            <div class="k2">
+                <label class="k3">Điểm Toán:</label>
+                <input type="number" id="diemtoan">
+            </div>
+            <div class="k2">
+                <label class="k3">Điểm Lý:</label>
+                <input type="number" id="diemly">
+            </div>
+            <div class="k2">
+                <label class="k3">Điểm Hóa:</label>
+                <input type="number" id="diemhoa">
+            </div>
+        </div>
+    </form>
+
+    <div class="k4">
+        
+            <button type="button" class="btn btn-primary " id="themvao1" onclick="validate()" >Nhập điểm</button>      
+            <button type="button" class="btn btn-success " id="themvao2" >Tính trung bình</button>
+            <button type="button" class="btn btn-warning " id="themvao3" >Học sinh giỏi</button>
+    </div>
+    <div>
+        <table class="table table-striped" id="myTable" >
+            <thead >
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Họ và tên</th>
+                  <th scope="col">Điểm toán</th>
+                  <th scope="col">Điểm lý</th>
+                  <th scope="col">Điểm hóa</th>
+                  <th scope="col">Điểm trung bình</th>
+                </tr>
+            </thead>
+            <thead id="vitrinhap" class="vitrinhap1">
+    
+            </thead>
+        </table>
+        
+      </div>
+</body>
+</html>

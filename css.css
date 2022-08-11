@@ -1,0 +1,39 @@
+.center {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+form {
+    
+    width: auto;
+    height: auto;
+}
+
+.k1 {
+    
+    width: 400px;
+    margin: auto;
+    
+}
+
+.k2 {
+    width: 400px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.k3 {
+    width: 150px;
+    padding-left: 20px;
+}
+
+.k4 {
+    width: 390px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.error {
+    border: 1px solid red;
+}
